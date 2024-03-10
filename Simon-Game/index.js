@@ -92,4 +92,10 @@ $(document).keypress(function(){
     }
 });
 
+$("#start-button").click(function(){
+    if (level===0){
+        next();
+    }
+});
+
 
