@@ -1,0 +1,22 @@
+/* Default styles for larger screens */
+
+@media screen and (max-width: 1200px){
+    .game-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+    
+    .game {
+        flex: 0 0 48%; 
+        margin-bottom: 20px; 
+    }  
+}
+
+
+/* Styles for smaller screens */
+ @media (max-width: 600px) {
+    .game {
+        flex: 0 0 100%; /* On smaller screens, the boxes will take up the full width of the container, so they will stack vertically */
+     }
+} 
