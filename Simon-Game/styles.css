@@ -1,13 +1,13 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #BFFFF0;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #385B66;
 }
 
 .container {
@@ -48,15 +48,15 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: #F0FFC2;
 }
 
 .green {
-  background-color: green;
+  background-color: #FFE4C0;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #FFBBBB;
 }
 
 .yellow {
@@ -66,4 +66,14 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+/* FOOTER SECTION */
+
+footer {
+  height: 5vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
